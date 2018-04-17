@@ -13,7 +13,7 @@ end
 def assign_rooms (speakers)
   room_sign = []
   for i in speakers
-    room_sign.push("Hello, #{i}! You'll be assigned to room " + ((speakers.index)+1)) + "!")
+    room_sign.push("Hello, #{i}! You'll be assigned to room " + "!")
   end
   return room_sign
 end
